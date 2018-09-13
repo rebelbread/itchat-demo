@@ -64,7 +64,8 @@ public class MsgHandler implements IMsgHandlerFace {
 
     @Override
     public String picMsgHandle(BaseMsg msg) {
-        return null;
+
+        return "长是: "+msg.getImgHeight()+"...宽是:"+msg.getImgWidth();
     }
 
     @Override
